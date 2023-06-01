@@ -1,0 +1,25 @@
+body{
+    background-image: url(./animações/in.gif);
+    background-size: cover;
+    position: fixed;
+    background-repeat: no-repeat;
+}
+
+button{
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    box-shadow: 0 0 5px green 0 0 25px green;
+    background-color: rgb(29, 216, 39);
+    color: black;
+    border-color: green;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 300px;
+    font-weight: 800;
+    margin-left: 835px;
+}
+
+button:hover{
+    box-shadow: 0 0 5px green, 0 0 25px green, 0 0 50px green, 0 0 100px green, 0 0 200px green;
+}
